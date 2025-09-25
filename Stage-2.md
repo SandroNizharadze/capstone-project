@@ -179,19 +179,21 @@ This document provides a comprehensive overview of the **MemoryVault** system, c
 ### 4.1 Inheritance Hierarchy
 
 MemoryItem (Abstract)
-├── Photo
-├── Video
-├── Document
+
+├── Photo\
+├── Video\
+├── Document\
 └── AudioFile
 
-User (Abstract)
-├── MemoryKeeper
-├── FamilyMember
-└── MemorialTrustee
+User (Abstract)\
+├── MemoryKeeper\
+├── FamilyMember\
+└── MemorialTrustee\
 
-AccessRule (Abstract)
-├── TimeBasedRule
-├── RoleBasedRule
+
+AccessRule (Abstract)\
+├── TimeBasedRule\
+├── RoleBasedRule\
 └── ContentBasedRule
 
 ### 4.2 Key Attributes
@@ -201,5 +203,3 @@ AccessRule (Abstract)
 **ScheduledRelease**: releaseId, itemId, schedulerId, deliveryDate, recipientIds, message, isRecurring, status, creationDate  
 
 ---
-
-This design establishes a complete blueprint for **MemoryVault**, covering requirements, use cases, objects, and classes for effective implementation.
